@@ -151,7 +151,7 @@ def build_SOFC_ROM(m):
     #b.air_util = Var(initialize=0.5, units=None, bounds=(0.125, 0.833))
     b.air_util = Var(initialize=0.5, units=None, bounds=(0, 0.833))
 
-    b.pressure = Var(initialize=1, units=units.atm, bounds=(1, 2.5))
+    b.pressure = Var(initialize=1, units=units.atm, bounds=(1-1e-3, 2.5))
 
     # create vars for intermediate calculations
     ROM_initialize_values = [4000, 500, 0.4, 700, 0.5, 2.1, 0.85, 0.5, 1]

@@ -1,0 +1,4 @@
+WARNING: DEPRECATED: pyomo.core.expr.current is deprecated.  Please import
+expression symbols from pyomo.core.expr  (deprecated in 6.6.2) (called from
+<frozen importlib._bootstrap>:241)
+DOF =  18

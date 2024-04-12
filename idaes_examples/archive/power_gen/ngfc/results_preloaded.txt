@@ -1,0 +1,186 @@
+WARNING: DEPRECATED: pyomo.core.expr.current is deprecated.  Please import
+expression symbols from pyomo.core.expr  (deprecated in 6.6.2) (called from
+<frozen importlib._bootstrap>:241)
+Scaling flowsheet variables
+overwriting mole_frac lower bound, set to 0 to remove warnings
+Scaling flowsheet constraints
+Calculating scaling factors
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.prereformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:27 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.anode.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,H2O]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CO2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,CH4]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C2H6]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C3H8]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,C4H10]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,N2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,O2]
+2024-04-09 22:38:28 [WARNING] idaes.core.util.scaling: Missing scaling factor for fs.reformer.control_volume.properties_out[0.0]._material_density_term[Vap,Ar]
+
+Starting ROM initialization
+ROM initialization completed
+Loading solved model
+inlet : Size=1
+    Key  : Name           : Value
+    None :       flow_mol : {0.0: 9701.854517395095}
+         : mole_frac_comp : {(0.0, 'Ar'): 0.0023274766791374006, (0.0, 'CH4'): 0.057963676584895804, (0.0, 'CO'): 0.044468881350382766, (0.0, 'CO2'): 0.12252708349655192, (0.0, 'H2'): 0.2230258452495939, (0.0, 'H2O'): 0.18289220281831614, (0.0, 'N2'): 0.19465335618345173, (0.0, 'O2'): 0.1721414776370585}
+         :       pressure : {0.0: 137612.19999995813}
+         :    temperature : {0.0: 843.794429034011}
+outlet : Size=1
+    Key  : Name           : Value
+    None :       flow_mol : {0.0: 9156.07395742062}
+         : mole_frac_comp : {(0.0, 'Ar'): 0.0024662142572127667, (0.0, 'CH4'): 2.1800055217251894e-05, (0.0, 'CO'): 0.03788898207758755, (0.0, 'CO2'): 0.20045838372024288, (0.0, 'H2'): 0.1263335675236244, (0.0, 'H2O'): 0.4265746961728219, (0.0, 'N2'): 0.2062563661891095, (0.0, 'O2'): 0.0}
+         :       pressure : {0.0: 137137}
+         :    temperature : {0.0: 979.9310107025157}
+inlet : Size=1
+    Key  : Name           : Value
+    None :       flow_mol : {0.0: 7714.749795748621}
+         : mole_frac_comp : {(0.0, 'Ar'): 0.0029269718878652245, (0.0, 'C2H6'): 0.0028916392171398943, (0.0, 'C3H8'): 0.0006325167725806033, (0.0, 'C4H10'): 0.0003614147291438871, (0.0, 'CH4'): 0.08431436333045284, (0.0, 'CO'): 0.06291057915035898, (0.0, 'CO2'): 0.12655269307705613, (0.0, 'H2'): 0.19653887983921248, (0.0, 'H2O'): 0.2780803095457478, (0.0, 'N2'): 0.24479064244121415, (0.0, 'O2'): 0.0}
+         :       pressure : {0.0: 137750.0999999589}
+         :    temperature : {0.0: 916.0926234428885}
+outlet : Size=1
+    Key  : Name           : Value
+    None :       flow_mol : {0.0: 8031.7675173991265}
+         : mole_frac_comp : {(0.0, 'Ar'): 0.002811442901534636, (0.0, 'C2H6'): 5.752220031141648e-07, (0.0, 'C3H8'): 0.0, (0.0, 'C4H10'): 0.0, (0.0, 'CH4'): 0.07001637304824902, (0.0, 'CO'): 0.053715530180400525, (0.0, 'CO2'): 0.14800477628079903, (0.0, 'H2'): 0.269400767372175, (0.0, 'H2O'): 0.2209219267729543, (0.0, 'N2'): 0.23512863820325197, (0.0, 'O2'): 0.0}
+         :       pressure : {0.0: 137612.1999999581}
+         :    temperature : {0.0: 834.829061170244}
+DOF =  0
