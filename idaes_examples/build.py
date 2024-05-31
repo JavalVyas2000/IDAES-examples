@@ -9,10 +9,14 @@ from pathlib import Path
 import re
 import shutil
 <<<<<<< HEAD
+<<<<<<< HEAD
 from subprocess import check_call
 =======
 import subprocess
 >>>>>>> e5163e38ca57d2f2e9d11e6370df5ba577ff95d2
+=======
+import subprocess
+>>>>>>> 76ee7fe11b4671acf522492f720a4005bf3c8f66
 import sys
 import time
 import traceback
@@ -940,6 +944,7 @@ def main():
         "--updated", help="Last updated date (use YYYY-MM-DD), for `--edit` mode"
     )
 <<<<<<< HEAD
+<<<<<<< HEAD
     subp["gui"].add_argument(
         "--stop", help="Stop notebooks on GUI quit", action="store_true"
     )
@@ -955,6 +960,8 @@ def main():
     )
 =======
 >>>>>>> e5163e38ca57d2f2e9d11e6370df5ba577ff95d2
+=======
+>>>>>>> 76ee7fe11b4671acf522492f720a4005bf3c8f66
     subp["new"].add_argument(
         "-g",
         "--git",
