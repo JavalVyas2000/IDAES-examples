@@ -118,7 +118,11 @@ class _StateBlock(StateBlock):
 
                      * 0 = no output (default)
                      * 1 = return solver state for each step in routine
+<<<<<<< HEAD
                      * 2 = include solver output infomation (tee=True)
+=======
+                     * 2 = include solver output information (tee=True)
+>>>>>>> e5163e38ca57d2f2e9d11e6370df5ba577ff95d2
             state_vars_fixed: Flag to denote if state vars have already been
                               fixed.
                               - True - states have already been fixed by the
@@ -129,18 +133,30 @@ class _StateBlock(StateBlock):
                              - False - states have not been fixed. The state
                                        block will deal with fixing/unfixing.
             optarg : solver options dictionary object (default=None)
+<<<<<<< HEAD
             solver : str indicating whcih solver to use during
+=======
+            solver : str indicating which solver to use during
+>>>>>>> e5163e38ca57d2f2e9d11e6370df5ba577ff95d2
                      initialization (default = 'ipopt')
             hold_state : flag indicating whether the initialization routine
                          should unfix any state variables fixed during
                          initialization (default=False).
+<<<<<<< HEAD
                          - True - states varaibles are not unfixed, and
+=======
+                         - True - states variables are not unfixed, and
+>>>>>>> e5163e38ca57d2f2e9d11e6370df5ba577ff95d2
                                  a dict of returned containing flags for
                                  which states were fixed during
                                  initialization.
                         - False - state variables are unfixed after
                                  initialization by calling the
+<<<<<<< HEAD
                                  relase_state method
+=======
+                                 release_state method
+>>>>>>> e5163e38ca57d2f2e9d11e6370df5ba577ff95d2
 
         Returns:
             If hold_states is True, returns a dict containing flags for
@@ -200,7 +216,11 @@ class _StateBlock(StateBlock):
 
     def release_state(blk, flags, outlvl=0):
         '''
+<<<<<<< HEAD
         Method to relase state variables fixed during initialisation.
+=======
+        Method to release state variables fixed during initialisation.
+>>>>>>> e5163e38ca57d2f2e9d11e6370df5ba577ff95d2
 
         Keyword Arguments:
             flags : dict containing information of which state variables

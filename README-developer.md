@@ -41,6 +41,8 @@ Clone the repository from GitHub, set up your Python environment as you usually 
 pip install -r requirements-dev.txt
 ```
 
+Note: if you have IDAES installed in your current environment, it will uninstall it and install the latest version from the main branch on Github. You can run `pip uninstall idaes` and reinstall it from your local repository if you need to test examples against a local branch of IDAES.
+
 The configuration of the installation is stored in `pyproject.toml`.
 
 ## Add a new example
@@ -364,9 +366,9 @@ Create a new virtual environment and install the package from test.pypi into it:
 pip install --extra-index-url https://test.pypi.org/simple/ idaes-examples
 ```
 
-If the installation succeeds, you should be able to browse the notebooks using the built-in GUI:
+If the installation succeeds, you should be able to serve the notebooks:
 ```shell
-idaesx gui
+idaesx serve
 ```
 
 If it all looks good, you can repeat the **Upload** step with the real [PyPI](pypi.org) 
