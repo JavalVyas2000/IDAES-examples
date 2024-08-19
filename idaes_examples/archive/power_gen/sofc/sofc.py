@@ -738,7 +738,7 @@ def set_inputs(m):
     m.fs.intercooler_s2.outlet.temperature.fix(310.93)  # K (100 F)
     m.fs.intercooler_s2.deltaP.fix(-3.447)  # kPa (-0.5 psi)
 
-    # air seperation unit
+    # air separation unit
     m.fs.asu.O2_outlet.mole_frac_comp[0, "CO2"].fix(1e-19)
     m.fs.asu.O2_outlet.mole_frac_comp[0, "H2O"].fix(1e-19)
     m.fs.asu.split_fraction[0, "O2_outlet", "N2"].fix(0.0005)
@@ -819,7 +819,7 @@ def scale_flowsheet(m):
 
     # some specific variable scaling
 
-    # heat exchanger areas and overall heat transfer coefficiencts
+    # heat exchanger areas and overall heat transfer coefficients
     iscale.set_scaling_factor(m.fs.anode_hx.area, 1e-4)
     iscale.set_scaling_factor(m.fs.anode_hx.overall_heat_transfer_coefficient, 1e2)
     iscale.set_scaling_factor(m.fs.cathode_hx.area, 1e-4)

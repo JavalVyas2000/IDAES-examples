@@ -766,7 +766,7 @@ def set_inputs(m):
     m.fs.asu_ic02.outlet.temperature.fix(310.93)  # K (100 F)
     m.fs.asu_ic02.deltaP.fix(-3447)  # kPa (-0.5 psi)
 
-    # air seperation unit
+    # air separation unit
     m.fs.asu_split.split_fraction[0, "o2_outlet", "N2"].fix(0.0005)
     m.fs.asu_split.split_fraction[0, "o2_outlet", "O2"].fix(0.9691)
     m.fs.asu_split.split_fraction[0, "o2_outlet", "Ar"].fix(0.0673)
@@ -950,7 +950,7 @@ def scale_flowsheet(m):
         pp.set_default_scaling("mole_frac_phase_comp", 1e2)
         pp.set_default_scaling("enth_mol_phase", 1e-3)
 
-    # heat exchanger areas and overall heat transfer coefficiencts
+    # heat exchanger areas and overall heat transfer coefficients
     iscale.set_scaling_factor(m.fs.boiler.area, 1e-3)
     iscale.set_scaling_factor(m.fs.boiler.overall_heat_transfer_coefficient, 1e-2)
     iscale.set_scaling_factor(m.fs.feed_hx.area, 1e-3)
